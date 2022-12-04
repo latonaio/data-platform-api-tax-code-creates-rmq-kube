@@ -1,0 +1,27 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "TAX_CODE",
+	"TaxCode": {
+		"Country": "JP",
+		"TaxCode": "A0",
+		"TaxCodeText": {
+			"Language": "JA",
+			"TaxCodeName": "不課税売上"
+		},
+		"TaxRate": {
+			"ValidityEndDate": "9999-12-31",
+			"ValidityStartDate": "2019-10-01",
+			"TaxRate": "0"
+		}
+	},
+	"api_schema": "DPFMTaxCodeCreates",
+	"accepter": ["TaxCode"],
+	"tax_code_id": null,
+	"deleted": false
+}
