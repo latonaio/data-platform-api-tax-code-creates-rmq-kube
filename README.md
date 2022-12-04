@@ -85,8 +85,6 @@ func (c *DPFMAPICaller) AsyncTaxCodeCreates(
 			wg.Done()
 		}
 	}
-
-	// 後処理
 	ticker := time.NewTicker(10 * time.Second)
 	select {
 	case e := <-sqlUpdateFin:
